@@ -1,15 +1,18 @@
 import React from 'react';
+import Details from './Details';
+import Progress from './Progress';
+import Status from './Status';
+import Submenu from './Submenu';
 
 const BookItem = (prop) => {
   const { book } = prop;
 
   return (
-    <li>
-      <div>
-        <span>{ book.genre }</span>
-        <h6>{ book.name }</h6>
-        <p>{ book.author }</p>
-      </div>
+    <li id={book.id}>
+      <Details book={book} />
+      <Submenu book={book} />
+      <Progress book={book} />
+      <Status book={book} />
     </li>
   );
 };
