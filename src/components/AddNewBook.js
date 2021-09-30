@@ -9,7 +9,8 @@ const AddBook = () => {
   const [c, setCategory] = useState('');
   const [a, setAuthor] = useState('');
 
-  const submitBookToStore = () => {
+  const submitBookToStore = (e) => {
+    e.preventDefault();
     const newBook = {
     // make sure it's unique
       title: t,
@@ -28,9 +29,6 @@ const AddBook = () => {
         <input type="text" name="title" placeholder="Book Title" onChange={(e) => setTitle(e.target.value)} />
         <input type="text" name="author" placeholder="Book Author" onChange={(e) => setAuthor(e.target.value)} />
         <select name="category" id="category" defaultValue="Category" onChange={(e) => setCategory(e.target.value)}>
-          {/* {options.map((option) => (
-          <option key={option.key} value={option.value}>{option.label}</option>
-        ))} */}
           <option disabled>Category</option>
           <option value="Thriller">Thriller</option>
           <option value="Romance">Romance</option>
