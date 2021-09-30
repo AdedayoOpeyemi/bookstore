@@ -5,8 +5,8 @@ const BookItem = (prop) => {
 
   return (
     <div>
-      <span>{ book.genre }</span>
-      <h6>{ book.name }</h6>
+      <span>{ book.category }</span>
+      <h6>{ book.title }</h6>
       <p>{ book.author }</p>
     </div>
   );

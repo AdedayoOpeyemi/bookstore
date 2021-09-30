@@ -9,10 +9,12 @@ const BookItem = (prop) => {
 
   return (
     <li id={book.id}>
-      <Details book={book} />
-      <Submenu book={book} />
-      <Progress book={book} />
-      <Status book={book} />
+      <div>
+        <Details book={book} />
+        <Submenu book={book} />
+        <Progress book={book} />
+        <Status book={book} />
+      </div>
     </li>
   );
 };
