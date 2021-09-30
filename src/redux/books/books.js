@@ -11,7 +11,6 @@ const reducer = (state = [], action) => {
       newBook = {
         ...action.book,
         id: uuidv4(),
-        author: '',
         progress: 0,
         chapter: 1,
       };
