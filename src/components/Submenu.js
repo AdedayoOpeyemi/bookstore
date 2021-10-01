@@ -1,16 +1,17 @@
 import React from 'react';
+import { bindActionCreators } from 'redux';
 import { useDispatch } from 'react-redux';
-import { removeBook } from '../redux/books/books';
+import { deleteBooksData } from '../redux/books/books';
 
 const Submenu = (prop) => {
   const dispatch = useDispatch();
   const { book } = prop;
 
+  const removeBooksAction = bindActionCreators(deleteBooksData, dispatch);
+  
   const removeBookFromStore = () => {
-    // e.preventDefault();
-
     // dispatch an action and pass it the newBook object (your action's payload)
-    dispatch(removeBook(book.id));
+    removeBooksAction(book.item_id);
   };
   return (
     <div>

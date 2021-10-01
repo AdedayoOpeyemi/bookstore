@@ -25,7 +25,7 @@ const reducer = (state = initialState, action) => {
         ]
       );
     case (REMOVE):
-      return state.filter((book) => book.id !== action.bookId);
+      return state.filter((book) => book.item_id !== action.bookId);
     case (LOAD):
       console.log(action.state);
       return action.state;
@@ -66,6 +66,14 @@ export const addBooksData = (book) => async (dispatch) => {
     body: new URLSearchParams(book),
   });
   dispatch({ type: ADD, book });
+};
+
+export const deleteBooksData = (bookId) => async (dispatch) => {
+  await fetch(baseUrl, {
+    method: 'DELETE',
+    body: new URLSearchParams(bookId),
+  });
+  dispatch({ type: REMOVE, bookId });
 };
 
 export default reducer;
