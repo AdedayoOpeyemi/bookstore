@@ -20,6 +20,8 @@ const AddBook = () => {
 
     // dispatch an action and pass it the newBook object (your action's payload)
     dispatch(addBook(newBook));
+    setTitle('');
+    setCategory('');
   };
 
   return (

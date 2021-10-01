@@ -8,7 +8,7 @@ const BookItem = (prop) => {
   const { book } = prop;
 
   return (
-    <li id={book.id}>
+    <li id={book.item_id}>
       <div>
         <Details book={book} />
         <Submenu book={book} />

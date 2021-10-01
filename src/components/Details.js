@@ -7,7 +7,6 @@ const BookItem = (prop) => {
     <div>
       <span>{ book.category }</span>
       <h6>{ book.title }</h6>
-      <p>{ book.author }</p>
     </div>
   );
 };
