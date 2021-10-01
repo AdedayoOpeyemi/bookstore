@@ -69,7 +69,7 @@ export const addBooksData = (book) => async (dispatch) => {
 };
 
 export const deleteBooksData = (bookId) => async (dispatch) => {
-  await fetch(baseUrl, {
+  await fetch(baseUrl + bookId, {
     method: 'DELETE',
     body: new URLSearchParams(bookId),
   });
