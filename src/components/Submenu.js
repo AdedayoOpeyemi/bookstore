@@ -8,7 +8,7 @@ const Submenu = (prop) => {
   const { book } = prop;
 
   const removeBooksAction = bindActionCreators(deleteBooksData, dispatch);
-  
+
   const removeBookFromStore = () => {
     // dispatch an action and pass it the newBook object (your action's payload)
     removeBooksAction(book.item_id);
