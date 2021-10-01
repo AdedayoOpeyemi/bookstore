@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-console */
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
 
 // action constants
 const LOAD = 'bookstore/books/LOAD';
@@ -16,9 +17,6 @@ const reducer = (state = initialState, action) => {
     case (ADD):
       newBook = {
         ...action.book,
-        id: uuidv4(),
-        progress: 0,
-        chapter: 1,
       };
       return (
         [
@@ -60,6 +58,14 @@ export const loadBooksData = () => async (dispatch) => {
   const state = [];
   keys.forEach((key) => { state.push({ ...data[key][0], item_id: key }); });
   dispatch({ type: LOAD, state });
+};
+
+export const addBooksData = (book) => async (dispatch) => {
+  await fetch(baseUrl, {
+    method: 'POST',
+    body: new URLSearchParams(book),
+  });
+  dispatch({ type: ADD, book });
 };
 
 export default reducer;
