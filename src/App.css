@@ -77,11 +77,12 @@ p {
   min-width: 600px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 60px;
+  margin-top: 80px;
   background-color: #fafafa;
-  box-shadow: 0 0 60px 0 #fafafa;
+  box-shadow: 0 0 60px 0 grey;;
   padding-right: 40px;
   padding-left: 40px;
+  margin-bottom: 80px;
 }
 
 .view_content {
@@ -132,4 +133,8 @@ p {
 .navContent {
   display: flex;
   flex-direction: row;
+}
+
+hr {
+  color: rgb(221, 210, 210);
 }

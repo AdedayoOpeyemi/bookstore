@@ -33,7 +33,6 @@ const AddBook = () => {
       <h4>ADD NEW BOOK</h4>
       <form onSubmit={submitBookToStore}>
         <input type="text" name="title" placeholder="Book Title" onChange={(e) => setTitle(e.target.value)} />
-        {/* <input type="text" name="author" placeholder="Book Author" onChange={(e) => setAuthor(e.target.value)} /> */}
         <select name="category" id="category" defaultValue="Category" onChange={(e) => setCategory(e.target.value)}>
           <option disabled>Category</option>
           <option value="Thriller">Thriller</option>
