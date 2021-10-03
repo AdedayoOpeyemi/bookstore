@@ -36,11 +36,6 @@ a.active-link {
 }
 
 .user-surround {
-  border: 1px solid grey;
-  border-radius: 50%;
-}
-
-.user-surround {
   padding: 12px 14px;
   border: 1px solid grey;
   border-radius: 50%;
