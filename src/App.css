@@ -16,6 +16,10 @@ body {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
+button {
+  cursor: pointer;
+}
+
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
