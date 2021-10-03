@@ -5,7 +5,7 @@ const BookItem = (prop) => {
 
   return (
     <div>
-      <span>{ book.category }</span>
+      <span className="category">{ book.category }</span>
       <br />
       <span className="title">{ book.title }</span>
       <br />

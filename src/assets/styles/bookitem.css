@@ -25,6 +25,14 @@
   line-height: normal;
 }
 
+.bookDetails > div > .category {
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  color: grey;
+  margin-bottom: 8px;
+}
+
 .bookDetails > div > .title {
   font-size: 1.375rem;
   font-weight: bold;
