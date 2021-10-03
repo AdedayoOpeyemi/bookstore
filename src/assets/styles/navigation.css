@@ -10,6 +10,8 @@
 
 .navContent > li {
   margin-left: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .navContent > li > a {
@@ -31,4 +33,16 @@
 a.active-link {
   color: black !important;
   text-decoration: none;
+}
+
+.user-surround {
+  border: 1px solid grey;
+  border-radius: 50%;
+}
+
+.user-surround {
+  padding: 12px 14px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  color: #0290ff;
 }

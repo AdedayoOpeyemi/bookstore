@@ -2,7 +2,6 @@ import React from 'react';
 import '../assets/styles/status.css';
 
 const Status = () => {
-  // const { book } = prop;
   const chapter = 7;
 
   return (

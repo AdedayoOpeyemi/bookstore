@@ -1,8 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../assets/styles/navigation.css';
+import { FaUser } from 'react-icons/fa';
 
 const Navbar = () => {
+  // const userProf = <FaUser />;
+  const userbox = (
+    <div className="user-surround">
+      <FaUser />
+    </div>
+  );
   const links = [
     {
       id: 1,
@@ -17,7 +24,7 @@ const Navbar = () => {
     {
       id: 3,
       path: '/user',
-      text: 'User',
+      text: userbox,
     },
   ];
 
