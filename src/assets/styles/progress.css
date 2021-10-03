@@ -1,0 +1,29 @@
+.progressCircleContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.CircularProgressbar {
+  width: 80px !important;
+}
+
+.progressCircleContainer > div {
+  flex-grow: 0 !important;
+  margin-right: 16px;
+}
+
+.progress-report-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.completed {
+  opacity: 0.5;
+  font-size: 0.875rem;
+  line-height: normal;
+}

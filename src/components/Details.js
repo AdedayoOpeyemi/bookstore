@@ -6,7 +6,10 @@ const BookItem = (prop) => {
   return (
     <div>
       <span>{ book.category }</span>
-      <h6>{ book.title }</h6>
+      <br />
+      <span className="title">{ book.title }</span>
+      <br />
+      <span className="author">Author name</span>
     </div>
   );
 };

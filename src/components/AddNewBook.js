@@ -5,6 +5,7 @@ import { bindActionCreators } from 'redux';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
 import { addBooksData } from '../redux/books/books';
+import '../assets/styles/addNewBook.css';
 
 const AddBook = () => {
   const dispatch = useDispatch();

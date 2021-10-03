@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import store from './redux/configureStore';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 ReactDOM.render(
   <Provider store={store}>

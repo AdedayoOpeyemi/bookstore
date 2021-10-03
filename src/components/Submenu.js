@@ -2,6 +2,7 @@ import React from 'react';
 import { bindActionCreators } from 'redux';
 import { useDispatch } from 'react-redux';
 import { deleteBooksData } from '../redux/books/books';
+import '../assets/styles/submenu.css';
 
 const Submenu = (prop) => {
   const dispatch = useDispatch();
@@ -14,7 +15,7 @@ const Submenu = (prop) => {
     removeBooksAction(book.item_id);
   };
   return (
-    <div>
+    <div className="submenu-buttons">
       <button type="button">Comment</button>
       <button type="button" onClick={removeBookFromStore}>Remove</button>
       <button type="button">Edit</button>
