@@ -14,7 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #f5f6fa;
 }
 
 code {
@@ -26,10 +26,3 @@ code {
     'Courier New',
     monospace;
 }
-
-/* .app-card {
-  width: 60%;
-  border: 1px solid red;
-  position: relative;
-  top: 320px;
-} */
