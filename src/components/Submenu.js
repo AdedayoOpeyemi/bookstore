@@ -7,8 +7,6 @@ const Submenu = (prop) => {
   const { book } = prop;
 
   const removeBookFromStore = () => {
-    // e.preventDefault();
-
     // dispatch an action and pass it the newBook object (your action's payload)
     dispatch(removeBook(book.id));
   };
