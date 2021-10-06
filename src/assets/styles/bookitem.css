@@ -23,6 +23,15 @@
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
+  width: 40%;
+}
+
+.bookProgress {
+  width: 30%;
+}
+
+.bookStatus {
+  width: 30%;
 }
 
 .bookDetails > div > .category {

@@ -14,8 +14,8 @@ const BookItem = (prop) => {
         <Details book={book} />
         <Submenu book={book} />
       </div>
-      <Progress book={book} />
-      <Status book={book} />
+      <Progress book={book} className="bookProgress" />
+      <Status book={book} className="bookStatus" />
     </li>
   );
 };
