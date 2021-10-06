@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Bookstore CMS
 
-## Available Scripts
+> Bookstore CMS  is a bookstore website  It was built using React. The website has the following functions
 
-In the project directory, you can run:
+  - Display a list of books.
+  - Add a book.
+  - Remove a selected book.
 
-### `yarn start`
+## Live Demo Links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ - To be updated
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+Additional description about the project and its features.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
 
-### `yarn build`
+- Javascript
+- React
+- Redux
+- Git, Jest
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+To get a local copy up and running follow these simple example steps.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Git
+- Code editor of choice
+- Node & Npm
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Setup
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Navigate to your desired directory in your local machine using the terminal.
 
-## Learn More
+2. Clone repository by running `git clone git@github.com:AdedayoOpeyemi/bookstore.git` in your local terminal
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Run the following command to install the needed dependencies
 
-### Code Splitting
+    `npm install`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Usage
 
-### Analyzing the Bundle Size
+1. Use the following commands to 
+   `npm run start` to start the Webpack Dev server and serve the files from the dist directory
+   `npm run build` to complile build all source files into the dist directory
+   
+   `npm run eject` to set webpack into watch mode so that the build is automatically run whenever changes are made to any of the source files.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Run tests
+  `npm run test` to set webpack into watch mode so that the build is automatically run whenever changes are made to any of the source files.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Authors
 
-### Advanced Configuration
+👤 **Opeyemi Oyelesi**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- GitHub: [@AdedayoOpeyemi](https://github.com/AdedayoOpeyemi)
+- Twitter: [@Oyelesiopy](https://twitter.com/oyelesiopy)
+- LinkedIn: [Opeyemi Oyelesi](https://linkedin.com/in/opeyemioyelesi)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 Contributing
 
-### `yarn build` fails to minify
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to check the [issues page](https://github.com/AdedayoOpeyemi/Math_Magicians/issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
