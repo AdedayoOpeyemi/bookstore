@@ -1,16 +1,16 @@
 import React from 'react';
+import '../assets/styles/status.css';
 
-const Status = (prop) => {
-  const { book } = prop;
+const Status = () => {
+  const chapter = 7;
 
   return (
-    <div>
-      <p>CURRENT CHAPTER</p>
+    <div className="statusDetails">
+      <span className="chapter-head">CURRENT CHAPTER</span>
       <p>
-        Chapter
-        { book.currentChapter }
+        {`Chapter ${chapter}`}
       </p>
-      <button type="button">Update Progress</button>
+      <button type="button">UPDATE PROGRESS</button>
     </div>
   );
 };

@@ -1,0 +1,13 @@
+.submenu-buttons {
+  margin-top: 8px;
+}
+
+.submenu-buttons > button {
+  border: none;
+  margin-right: 8px;
+  color: #4386bf;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 300;
+  background-color: inherit;
+}

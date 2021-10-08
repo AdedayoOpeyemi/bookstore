@@ -5,6 +5,7 @@ import AddBook from '../components/AddNewBook';
 const Books = () => (
   <>
     <BookList />
+    <hr />
     <AddBook />
   </>
 );
