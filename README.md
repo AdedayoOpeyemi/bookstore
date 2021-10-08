@@ -10,7 +10,7 @@
 
 ## Live Demo Links
 
- - To be updated
+ - [Netlify deployment](https://awesome-sammet-3727b4.netlify.app/)
 
 
 Additional description about the project and its features.

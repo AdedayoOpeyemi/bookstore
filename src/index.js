@@ -10,7 +10,9 @@ ReactDOM.render(
   <Provider store={store}>
     <React.StrictMode>
       <Router basename={process.env.PUBLIC_URL}>
-        <App />
+        <div className="app-card">
+          <App />
+        </div>
       </Router>
     </React.StrictMode>
   </Provider>,

@@ -1,0 +1,43 @@
+.navigation {
+  background-color: white;
+}
+
+.navContent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.navContent > li {
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.navContent > li > a {
+  text-decoration: none;
+  color: grey;
+}
+
+.navContent > li:last-of-type {
+  margin-left: auto;
+}
+
+.navBar {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  margin-left: 40px;
+}
+
+a.active-link {
+  color: black !important;
+  text-decoration: none;
+}
+
+.user-surround {
+  padding: 12px 14px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  color: #0290ff;
+}

@@ -5,24 +5,30 @@ import Books from './pages/books';
 import Categories from './pages/categories';
 import './App.css';
 
-// import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Header />
-      </header>
-      <div>
-        <Switch>
-          <Route exact path="/">
-            <Books />
-          </Route>
-          <Route path="/categories">
-            <Categories />
-          </Route>
-        </Switch>
+    <div className="page_content">
+      <div className="navigation">
+        <div className="view_content">
+          <Header />
+        </div>
       </div>
+      <Switch>
+        <Route exact path="/">
+          <div className="content_container">
+            <div className="view_content">
+              <Books />
+            </div>
+          </div>
+        </Route>
+        <Route path="/categories">
+          <div className="content_container">
+            <div className="view_content">
+              <Categories />
+            </div>
+          </div>
+        </Route>
+      </Switch>
     </div>
   );
 }

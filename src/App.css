@@ -1,3 +1,140 @@
 ul {
   list-style-type: none;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  min-width: 480px;
+  color: #444;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+button {
+  cursor: pointer;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p {
+  font-family: “Playfair Display”, “Didot”, "Times New Roman", Times, serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navigation {
+  background-color: white;
+  margin-right: -40px;
+  margin-left: -40px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.page_content {
+  display: flex !important;
+  flex-direction: column;
+  width: 78%;
+  max-width: 1040px;
+  min-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 80px;
+  background-color: #fafafa;
+  box-shadow: 0 0 60px 0 grey;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-bottom: 80px;
+}
+
+.view_content {
+  padding: 1em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content_container {
+  flex-grow: 1;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.content-container {
+  width: 960px;
+  padding: 1em;
+}
+
+@media only screen and (max-width: 576px) {
+  .view_content {
+    width: 100%;
+  }
+
+  .content_container {
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .view_content {
+    width: 100%;
+  }
+
+  .content_container {
+    padding-top: 40px;
+  }
+}
+
+.navContent {
+  display: flex;
+  flex-direction: row;
+}
+
+hr {
+  color: rgb(221, 210, 210);
+}

@@ -3,6 +3,7 @@ import { bindActionCreators } from 'redux';
 import { useSelector, useDispatch } from 'react-redux';
 import BookItem from './BookItem';
 import { loadBooksData } from '../redux/books/books';
+import '../assets/styles/booklist.css';
 
 const BookList = () => {
   const books = useSelector((state) => state.books);
@@ -15,7 +16,7 @@ const BookList = () => {
   }, []);
 
   return (
-    <ul>
+    <ul className="allBooks">
       {books.map((book) => (
         <BookItem key={book.id} book={book} />
       ))}
